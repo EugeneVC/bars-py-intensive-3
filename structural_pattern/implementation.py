@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod, abstractproperty
+from abc import ABC, abstractmethod
 
 
 class Visa:
@@ -60,7 +60,10 @@ class MasterCard:
         self.money += quantity
 
     def current_money(self):
-        """Запрос текущего количества денег на счете"""
+        """
+            Запрос текущего количества денег на счете
+        :return: количество денег на счете
+        """
         return self.money
 
 
@@ -99,10 +102,9 @@ class PaymentAdapter(ABC):
 class VisaPaymentAdapter(PaymentAdapter):
     """Адаптер платежной системы Visa"""
     # нужно добавить свой код сюда
-    pass
 
 
 class MasterCardPaymentAdapter(PaymentAdapter):
     """Адаптер платежной системы MasterCard"""
     # нужно добавить свой код сюда
-    pass
+
