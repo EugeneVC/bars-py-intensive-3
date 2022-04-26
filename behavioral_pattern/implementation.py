@@ -22,16 +22,19 @@ class ArithmeticOperation:
 
 class MinusOperation(ArithmeticOperation):
     """Операция вычитания"""
+    # нужно добавить свой код сюда
 
 
 class PlusOperation(ArithmeticOperation):
     """Операция сложения"""
+    # нужно добавить свой код сюда
 
 
 class DevideOperation(ArithmeticOperation):
     """Операция деления"""
+    # нужно добавить свой код сюда
 
 
 class MultiplyOperation(ArithmeticOperation):
     """Опрация умножения"""
-
+    # нужно добавить свой код сюда
