@@ -3,7 +3,7 @@ from abc import abstractmethod
 
 class ArithmeticOperation:
 
-    def __init__(self, handler):
+    def __init__(self, handler=None):
         """
             Инициализация класса
         :param handler: следующий обработчик в цепочке
