@@ -8,7 +8,7 @@ class Language(IntEnum):
     GERMAN = 3
 
 
-class Mediator(ABC):
+class Mediator(metaclass=ABC):
     """ Абстрактный класс медиатора - переводчика """
 
     @abstractmethod
